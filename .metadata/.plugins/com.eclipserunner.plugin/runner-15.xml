@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runner version="1.0.0">
+    <category expanded="true" name="カテゴリーなし">
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Chapter1_2"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Chapter1_3"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Chapter2_1"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Chapter2_3"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Chapter3_3"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Chapter3_5"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Chapter3_6"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Free"/>
+    </category>
+</runner>
