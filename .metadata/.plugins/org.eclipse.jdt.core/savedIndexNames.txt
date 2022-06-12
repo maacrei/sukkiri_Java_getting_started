@@ -11,7 +11,6 @@ INDEX VERSION 1.131+/Users/kanbaramari/Projects/sukkiri_Java_getting_started/.me
 467964573.index
 1802238278.index
 1820997878.index
-2710549243.index
 867197694.index
 2952321142.index
 3122877953.index
