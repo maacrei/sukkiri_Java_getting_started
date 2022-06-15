@@ -1,6 +1,6 @@
 package practice;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Free {
 	public static void main(String[] args) {
