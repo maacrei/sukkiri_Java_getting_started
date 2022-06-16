@@ -1,0 +1,36 @@
+package practice;
+
+import java.util.*;
+
+public class Ans_event {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("イベントポイント報酬 〜目標ノルマ計算プログラム〜");
+		System.out.println(" (イベントの開始日と終了日は加味せず、７日でおわらせる計算です )");
+		
+		System.out.println("目標ポイント：");
+		int point = scanner.nextInt();
+		
+		System.out.println(" １日目ノルマ " + firstDayPoints(point));
+		System.out.println(" ２日目ノルマ " + secondDayPoints(point));
+		System.out.println(" ３日目ノルマ " + thirdDayPoints(point));
+		
+		scanner.close();
+	}
+	
+	public static int firstDayPoints(int point) {
+		int firstDay = point / 7;
+		return firstDay;
+	}
+	
+	public static int secondDayPoints(int point) {
+		int secondDay = point / 7;
+		return secondDay;
+	}
+	
+	public static int thirdDayPoints(int point) {
+		int thirdDay = point / 7;
+		return thirdDay;
+	}
+}
