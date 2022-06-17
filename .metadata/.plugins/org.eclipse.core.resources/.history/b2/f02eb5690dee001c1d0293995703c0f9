@@ -20,13 +20,14 @@ public class Ans_event {
 		System.out.println(" ６日目ノルマ " + sixthDayPoints(point));
 //		System.out.println(" ７日目ノルマ " + seventhDayPoints(point));
 		if ((point % 7) != 0) {
-			System.out.println(" ７日目ノルマ " + (seventhDayPoints(point) + (point % 7)));
+			System.out.print(" ７日目ノルマ " + seventhDayPoints(point) + (point % 7));
+			System.out.println(seventhDayPoints(point) + (point % 7));
 		} else {
 			System.out.println(" ７日目ノルマ " + seventhDayPoints(point));
 		}
 		System.out.print("ノルマ合計：");
 		System.out.println(firstDayPoints(point) + secondDayPoints(point) + thirdDayPoints(point) + fourthDayPoints(point)
-		                   + fifthDayPoints(point) + sixthDayPoints(point) + seventhDayPoints(point)+ (point % 7));
+		                   + fifthDayPoints(point) + sixthDayPoints(point) + seventhDayPoints(point));
 //		noruma(firstDayPoints, secondDayPoints, thirdDayPoints,
 //				fourthDayPoints, fifthDayPoints, sixthDayPoints, seventhDayPoints);
 

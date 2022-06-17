@@ -26,7 +26,7 @@ public class Ans_event {
 		}
 		System.out.print("ノルマ合計：");
 		System.out.println(firstDayPoints(point) + secondDayPoints(point) + thirdDayPoints(point) + fourthDayPoints(point)
-		                   + fifthDayPoints(point) + sixthDayPoints(point) + seventhDayPoints(point)+ (point % 7));
+		                   + fifthDayPoints(point) + sixthDayPoints(point) + seventhDayPoints(point));
 //		noruma(firstDayPoints, secondDayPoints, thirdDayPoints,
 //				fourthDayPoints, fifthDayPoints, sixthDayPoints, seventhDayPoints);
 
