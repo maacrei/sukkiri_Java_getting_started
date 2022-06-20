@@ -1,5 +1,5 @@
 package practice;
-//もっと簡潔に！
+//作成中
 import java.util.Scanner;
 
 public class Ans_event {
@@ -18,6 +18,7 @@ public class Ans_event {
 		System.out.println(" ４日目ノルマ " + fourthDayPoints(point));
 		System.out.println(" ５日目ノルマ " + fifthDayPoints(point));
 		System.out.println(" ６日目ノルマ " + sixthDayPoints(point));
+//		System.out.println(" ７日目ノルマ " + seventhDayPoints(point));
 		if ((point % 7) != 0) {
 			System.out.println(" ７日目ノルマ " + (seventhDayPoints(point) + (point % 7)));
 		} else {
@@ -26,6 +27,8 @@ public class Ans_event {
 		System.out.print("ノルマ合計：");
 		System.out.println(firstDayPoints(point) + secondDayPoints(point) + thirdDayPoints(point) + fourthDayPoints(point)
 		                   + fifthDayPoints(point) + sixthDayPoints(point) + seventhDayPoints(point)+ (point % 7));
+//		noruma(firstDayPoints, secondDayPoints, thirdDayPoints,
+//				fourthDayPoints, fifthDayPoints, sixthDayPoints, seventhDayPoints);
 
 		scanner.close();
 	}
@@ -64,4 +67,16 @@ public class Ans_event {
 		int seventhDay = point / 7;
 		return seventhDay;
 	}
+	
+//	public static int hasuu(int point) {
+//		int amari = point % 7;
+//		return amari;
+//	}
+
+//	public static int noruma(int firstDayPoints, int secondDayPoints, int thirdDayPoints,
+//			int fourthDayPoints, int fifthDayPoints, int sixthDayPoints, int seventhDayPoints) {
+//		int norumaTotal = firstDayPoints + secondDayPoints + thirdDayPoints + fourthDayPoints
+//        + fifthDayPoints + sixthDayPoints + seventhDayPoints;
+//		return norumaTotal;
+//	}
 }

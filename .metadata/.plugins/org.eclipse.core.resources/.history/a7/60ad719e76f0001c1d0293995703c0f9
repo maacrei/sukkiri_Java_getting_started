@@ -1,0 +1,6 @@
+package practice;
+
+public class Matango {
+	int hp; //フィールドを追加
+	final int LEVEL = 10; //フィールド宣言と同時に初期値も設定（finalが付いているので定数）
+}
