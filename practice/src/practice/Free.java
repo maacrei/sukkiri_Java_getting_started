@@ -1,15 +1,12 @@
 package practice;
 
-import java.util.Scanner;
-
 public class Free {
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
-		
-		for (int i = 0; i < n; i++) {
-			int a = sc.nextInt();
-			System.out.println(a);
-		}
+		Hero h1 = new Hero();
+		h1.hp = 100;
+		Hero h2;
+		h2 = h1;
+		h2.hp = 200;
+		System.out.println(h1.hp);
 	}
 }

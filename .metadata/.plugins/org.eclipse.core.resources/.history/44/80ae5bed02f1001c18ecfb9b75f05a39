@@ -1,0 +1,15 @@
+package chapter9;
+
+public class Main {
+	public static void main(String[] args) {
+		Sword s = new Sword();
+		s.name = "炎の剣";
+		s.damage = 10;
+		Hero h = new Hero();
+		h.name = "ミナト";
+		h.hp = 100;
+		h.sword = s; //swordフィールドに生成済みの剣インスタンスを代入
+		System.out.println("現在の武器は" + h.sword.name); //h.sword.name → 勇者「の」剣「の」名前
+		h.attack();
+	}
+}
