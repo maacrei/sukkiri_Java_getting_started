@@ -32,7 +32,6 @@ public class SuperHero extends Hero {
 		}
 	}
 	public SuperHero() {
-		super(); //記述しなくても自動的に挿入される「暗黙のsuper()」
 		System.out.println("SuperHeroのコンストラクタが動作");
 	}
 }
