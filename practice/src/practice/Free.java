@@ -4,19 +4,20 @@ import java.util.Scanner;
 
 public class Free {
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-        String value = sc.nextLine();
-        
-        String[] array = value.split(" ");
-        int t1 = Integer.valueOf(array[0]);
-        int t2 = Integer.valueOf(array[1]);
-        
-        int t = t2 - t1;
-        
-        if (t > 0) {
-            System.out.println("+" + t);
-        } else {
-            System.out.println(t);
-        }
+//		Scanner sc = new Scanner(System.in);
+//        String S = sc.nextLine();
+//        for(int i = 0; i < S.length() + 2; i++) {
+//            System.out.print("+");
+//        }
+//        System.out.println();
+//        System.out.println("+" + S + "+");
+//        for(int i = 0; i < S.length() + 2; i++) {
+//            System.out.print("+");
+//        }
+//        System.out.println();
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        System.out.println(a+b);
 	}
 }
