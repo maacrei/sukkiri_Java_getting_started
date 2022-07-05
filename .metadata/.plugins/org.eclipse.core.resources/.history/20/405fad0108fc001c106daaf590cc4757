@@ -1,0 +1,11 @@
+package chapter18_6;
+
+import java.io.*;
+import java.util.Date;
+import javax.servlet.http.*;
+//サーブレットの開発環境が必要
+
+@WebServlet("/HelloServlet")
+public class Main {
+
+}
