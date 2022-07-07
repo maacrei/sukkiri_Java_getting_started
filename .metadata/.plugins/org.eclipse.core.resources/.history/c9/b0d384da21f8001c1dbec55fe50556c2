@@ -1,8 +1,0 @@
-package review;
-
-public class Main {
-	public static void main(String[] args) {
-		Thief t1 = new Thief("ミナト");
-		System.out.println(t1.name + "のHPは" + t1.hp + "で、MPは" + t1.mp);
-	}
-}
