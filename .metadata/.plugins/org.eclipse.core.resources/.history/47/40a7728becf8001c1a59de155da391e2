@@ -1,5 +1,0 @@
-package chapter11_3;
-
-public interface Thing {
-
-}

@@ -5,15 +5,13 @@ import java.util.Scanner;
 public class Free {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-        String S = sc.nextLine();
-        for(int i = 0; i < S.length() + 2; i++) {
-            System.out.print("+");
+        String s1 = sc.nextLine();
+        String s2 = sc.nextLine();
+        if (s1 != null) {
+            System.out.println("DANGER");
+        } else {
+            System.out.println("OK");
         }
-        System.out.println();
-        System.out.println("+" + S + "+");
-        for(int i = 0; i < S.length() + 2; i++) {
-            System.out.print("+");
-        }
-        System.out.println();
+        sc.close();
 	}
 }
